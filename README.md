@@ -1,5 +1,7 @@
 # Ares — Interactive 3D Mars Atlas
 
+**[Launch Ares — Interactive Mars Atlas](https://sigfly.github.io/ares-mars/)**
+
 A standalone, offline WebGL 2 explorer inspired by [Luna](https://github.com/sigfly/luna-moon). Download the `ares-mars-16k` artifact from the [successful GitHub Actions build](https://github.com/sigfly/ares-mars/actions/runs/45408548940), unzip it, and open `index.html` directly in a modern browser. (GitHub requires sign-in to download workflow artifacts.) No server, network connection, runtime packages, or installation required.
 
 ## High-resolution maps
