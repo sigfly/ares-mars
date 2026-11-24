@@ -1,6 +1,6 @@
 # Ares — Interactive 3D Mars Atlas
 
-A standalone, offline WebGL 2 explorer inspired by [Luna](https://github.com/sigfly/luna-moon). Download `index.html` and open it directly in a modern browser. No server, network connection, runtime packages, or installation required.
+A standalone, offline WebGL 2 explorer inspired by [Luna](https://github.com/sigfly/luna-moon). Download the `ares-mars-16k` artifact from the [successful GitHub Actions build](https://github.com/sigfly/ares-mars/actions/runs/45408548940), unzip it, and open `index.html` directly in a modern browser. (GitHub requires sign-in to download workflow artifacts.) No server, network connection, runtime packages, or installation required.
 
 ## High-resolution maps
 
@@ -21,6 +21,8 @@ The source Viking mosaic has approximately 232 m sampling. The native MOLA grid 
 - Automatically lowers texture size to 4K on touch/low-memory devices and reports the actual loaded map resolution.
 
 ## Build
+
+[GitHub Actions](https://github.com/sigfly/ares-mars/actions/workflows/build.yml) builds and packages the full atlas using read-only repository permissions. The downloadable artifact includes `index.html` and both processed data maps.
 
 ```sh
 python -m pip install numpy pillow
